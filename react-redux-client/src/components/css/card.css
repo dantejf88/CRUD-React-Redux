@@ -1,0 +1,29 @@
+.Card {
+
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+
+  width: 260px;
+  height: 240px;
+  vertical-align: top;
+  margin-bottom: 0px;
+
+
+}
+.Card:hover .Card-cover {
+  box-shadow: 0 0 10px rgba(0,0,0,.8);
+}
+
+.Card-image {
+  transition: .3s;
+  height: 160px;
+  object-fit: cover;
+}
+
+.Card-title {
+  font-size: 20px;
+  margin: 5px 0 0 0;
+  color: black;
+  white-space: normal;
+}

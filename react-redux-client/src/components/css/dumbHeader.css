@@ -1,0 +1,24 @@
+.Logo {
+  height: 450px;
+  width: 100%;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: middle;
+
+
+}
+
+
+.Logo img {
+  border-radius: 50%;
+  transition: 1s;
+  height: 60%;
+  width: 40%;
+}
+
+.Logo img:hover{
+  transform: rotateY(360deg);
+
+}
