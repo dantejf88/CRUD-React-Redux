@@ -45,7 +45,7 @@ hideModal(){
       <div className="Greed">
           <Header />
           <Budget budget={greedState.budget}/>
-          <h1>Ornamentos</h1>
+          <h1 className="PlaylistTitle">Ornamentos</h1>
           {data.categories[0] &&
           data.categories[0].playlist.map((item) => {
             return (
@@ -59,7 +59,7 @@ hideModal(){
                 )
               })
           }
-          <h1>Telas</h1>
+          <h1 className="PlaylistTitle">Telas</h1>
           {data.categories[1] &&
           data.categories[1].playlist.map((item) => {
             return (

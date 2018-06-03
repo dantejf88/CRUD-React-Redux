@@ -10,6 +10,10 @@
   overflow-y: hidden;
   padding-bottom: 80px;
 }
+.PlaylistTitle {
+  font-size: 70px;
+}
+
 .Greed h1 {
   display:block;
   width: 1000px;
