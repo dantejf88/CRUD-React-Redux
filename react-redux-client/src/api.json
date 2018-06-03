@@ -6,119 +6,119 @@
         "playlist": [
           {
             "title": "Alfombras",
-            "cover": "./image/alfombra.jpg",
+            "cover": "http://res.cloudinary.com/dcrmdvhrx/image/upload/v1528064467/alfombra.jpg",
             "price":"Precio: $500",
             "costo": "500",
             "id": 1
           },
           {
             "title": "Arañas",
-            "cover": "https://scontent.faep8-2.fna.fbcdn.net/v/t1.0-9/27858780_2480235348867313_1703679264225365159_n.jpg?oh=f12d9fe532c60c66f8497f1dae157ec5&oe=5B480227",
+            "cover": "http://res.cloudinary.com/dcrmdvhrx/image/upload/v1528064497/ara%C3%B1a.jpg",
             "price":"Precio: $600",
             "costo": "600",
             "id": 2
           },
           {
             "title": "Árbol de la vida (corazón)",
-            "cover": "https://scontent.faep8-2.fna.fbcdn.net/v/t1.0-9/27750002_2475995295957985_4949155623771284022_n.jpg?oh=7b09da658743d927f83595c63b40a1ba&oe=5B087717",
+            "cover": "http://res.cloudinary.com/dcrmdvhrx/image/upload/v1528064466/arbolCorazon.jpg",
             "price":"Precio: $1000",
             "costo": "1000",
             "id": 3
           },
           {
             "title": "Árbol de la vida",
-            "cover": "https://scontent.faep8-2.fna.fbcdn.net/v/t1.0-9/28166963_2485138641710317_7672580656946034646_n.jpg?oh=38e45cd7064a43ec158614d57eb30254&oe=5B450CD3",
+            "cover": "http://res.cloudinary.com/dcrmdvhrx/image/upload/v1528064466/arbolVida.jpg",
             "price":"Precio: $900",
             "costo": "900",
             "id": 4
           },
           {
             "title": "Bochon de vidrio",
-            "cover": "https://scontent.faep8-2.fna.fbcdn.net/v/t1.0-9/28056679_2485138551710326_1954312239707255696_n.jpg?oh=e8d0881e951e59f2640bd98354355450&oe=5B1829BF",
+            "cover": "http://res.cloudinary.com/dcrmdvhrx/image/upload/v1528064524/bochon.jpg",
             "price":"Precio: $150",
             "costo": "150",
             "id": 5
           },
           {
             "title": "Cartel para Boda",
-            "cover": "https://scontent.faep8-2.fna.fbcdn.net/v/t1.0-9/28377868_2485138568376991_2617287969639853231_n.jpg?oh=d5b5b9f8a7dd1904dfcfe179a0d3ed9e&oe=5B0A00B2",
+            "cover": "http://res.cloudinary.com/dcrmdvhrx/image/upload/v1528064474/cartelBoda.jpg",
             "price":"Precio: $500",
             "costo": "500",
             "id": 6
           },
           {
             "title": "Mural de cuadritos",
-            "cover": "https://scontent.faep8-2.fna.fbcdn.net/v/t1.0-9/27751755_2480235285533986_8245636722092636932_n.jpg?oh=9b0cf9ffd0f472c4cf741c1ddc47d47c&oe=5B0DD91B",
+            "cover": "http://res.cloudinary.com/dcrmdvhrx/image/upload/v1528064589/cuadritos.jpg",
             "price":"Precio: $780",
             "costo": "780",
             "id": 7
           },
           {
             "title": "Estacas de hierro",
-            "cover": "https://scontent.faep8-2.fna.fbcdn.net/v/t31.0-8/28162080_2484246738466174_7831104981823791578_o.jpg?oh=b65255bebbd75333240dad67a54fa2cf&oe=5B0BA59F",
+            "cover": "http://res.cloudinary.com/dcrmdvhrx/image/upload/v1528064525/estacasHierro.jpg",
             "price":"Precio: $1500",
             "costo": "1500",
             "id": 8
           },
           {
             "title": "Faroles cuadrados",
-            "cover": "https://scontent.faep8-2.fna.fbcdn.net/v/t31.0-8/28235423_2484249575132557_571060278979605480_o.jpg?oh=3f465f6babf092ac426853ca6ab6de48&oe=5B455AA2",
+            "cover": "http://res.cloudinary.com/dcrmdvhrx/image/upload/v1528064608/farolCuadrado.jpg",
             "price":"Precio: $500",
             "costo": "500",
             "id": 9
           },
           {
             "title": "Faroles finos",
-            "cover": "https://scontent.faep8-2.fna.fbcdn.net/v/t1.0-9/26993543_2467528763471305_9188664172808707938_n.jpg?oh=fca3b1e5cd907f97d2e4da553c6a1bb7&oe=5B19ABBE",
+            "cover": "http://res.cloudinary.com/dcrmdvhrx/image/upload/v1528064503/farolesFinos.jpg",
             "price":"Precio: $420",
             "costo": "420",
             "id": 10
           },
           {
             "title": "Gazebo de hierro",
-            "cover": "https://scontent.faep8-2.fna.fbcdn.net/v/t1.0-9/27544947_2475995205957994_3038176718180180968_n.jpg?oh=fcdee9968a94e88d9eebbc85af682265&oe=5B102F34",
+            "cover": "http://res.cloudinary.com/dcrmdvhrx/image/upload/v1528064604/gazebo.jpg",
             "price":"Precio: $2500",
             "costo": "2500",
             "id": 11
           },
           {
             "title": "Jaulas ornamentales",
-            "cover": "https://scontent.faep8-2.fna.fbcdn.net/v/t1.0-9/27067474_2467528836804631_5387302251761275975_n.jpg?oh=1a106f60bba8db4fef443f5bc57770ed&oe=5B446A73",
+            "cover": "http://res.cloudinary.com/dcrmdvhrx/image/upload/v1528064533/jaulas.jpg",
             "price":"Precio: $350",
             "costo": "350",
             "id": 12
           },
           {
             "title": "Maniquíes de hierro",
-            "cover": "https://scontent.faep8-2.fna.fbcdn.net/v/t1.0-9/27540206_2474534456104069_1765127436851416833_n.jpg?oh=d0938dfbad7ebde3278f2ca8ae540719&oe=5B125187",
+            "cover": "http://res.cloudinary.com/dcrmdvhrx/image/upload/v1528064581/maniqui.jpg",
             "price":"Precio: $250",
             "costo": "250",
             "id": 13
           },
           {
             "title": "Peceras",
-            "cover": "https://scontent.faep8-2.fna.fbcdn.net/v/t1.0-9/28056207_2484249335132581_2538460567069441546_n.jpg?oh=03df83f0c63945cfbe3b8c5bd43cb88c&oe=5B0133E5",
+            "cover": "http://res.cloudinary.com/dcrmdvhrx/image/upload/v1528064582/peceras.jpg",
             "price":"Precio: $650",
             "costo": "650",
             "id": 14
           },
           {
             "title": "Pedestales pequeños",
-            "cover": "https://scontent.faep8-2.fna.fbcdn.net/v/t31.0-8/27982972_2479533115604203_2795491427335917185_o.jpg?oh=27435a435640061b0e69e2afef765fb5&oe=5B4C54E5",
+            "cover": "http://res.cloudinary.com/dcrmdvhrx/image/upload/v1528064611/pedestalesChicos.jpg",
             "price":"Precio: $200",
             "costo": "200",
             "id": 15
           },
           {
             "title": "Centro de mesa",
-            "cover": "https://scontent.faep8-2.fna.fbcdn.net/v/t31.0-8/27629316_2474534399437408_9040579047114306240_o.jpg?oh=2d5bf191ad009eebddd9e3683e6c2047&oe=5B1497FC",
+            "cover": "http://res.cloudinary.com/dcrmdvhrx/image/upload/v1528064485/pieElefante.jpg",
             "price":"Precio: $500",
             "costo": "500",
             "id": 16
           },
           {
             "title": "Triciclos ornamentales",
-            "cover": "https://scontent.faep8-2.fna.fbcdn.net/v/t31.0-8/28070557_2484246698466178_1406795960177080668_o.jpg?oh=cf4b09ad7b17993a3fab74274de66cd5&oe=5B06AC41",
+            "cover": "http://res.cloudinary.com/dcrmdvhrx/image/upload/v1528064476/triciclo.jpg",
             "price":"Precio: $1250",
             "costo": "1250",
             "id": 17
@@ -132,35 +132,35 @@
         "playlist": [
           {
             "title": "Entrada",
-            "cover": "https://scontent.faep8-2.fna.fbcdn.net/v/t1.0-9/27540206_2474534456104069_1765127436851416833_n.jpg?oh=d0938dfbad7ebde3278f2ca8ae540719&oe=5B125187",
+            "cover": "http://res.cloudinary.com/dcrmdvhrx/image/upload/v1528064539/entrada.jpg",
             "price":"Precio: $500",
             "costo": "500",
             "id": 1
           },
           {
             "title": "Living",
-            "cover": "https://scontent.faep8-2.fna.fbcdn.net/v/t31.0-8/28061065_2484249415132573_3822347164580660076_o.jpg?oh=8639a102a8cf4e3a105cd508ed175d15&oe=5B1AD440",
+            "cover": "http://res.cloudinary.com/dcrmdvhrx/image/upload/v1528064527/living.jpg",
             "price":"Precio: $500",
             "costo": "500",
             "id": 2
           },
           {
             "title": "Mesa principal",
-            "cover": "https://scontent.faep8-2.fna.fbcdn.net/v/t1.0-9/28168208_2480235258867322_7140372376041101243_n.jpg?oh=f07c7516c52428887d21fd1b7deaab7b&oe=5B06AC0A",
+            "cover": "http://res.cloudinary.com/dcrmdvhrx/image/upload/v1528064581/mesaPrincipal.jpg",
             "price":"Precio: $500",
             "costo": "500",
             "id": 3
           },
           {
             "title": "Paredes",
-            "cover": "https://scontent.faep8-2.fna.fbcdn.net/v/t1.0-9/27971741_2475995115958003_540559036901661435_n.jpg?oh=839f6db35a67b830875fc1f82c5e9abb&oe=5B087946",
+            "cover": "http://res.cloudinary.com/dcrmdvhrx/image/upload/v1528064541/paredes.jpg",
             "price":"Precio: $500",
             "costo": "500",
             "id": 4
           },
           {
             "title": "Techo",
-            "cover": "https://scontent.faep8-2.fna.fbcdn.net/v/t1.0-9/28166985_2480235392200642_2707992770699364271_n.jpg?oh=3124cc5c87efeb7de4d861717b955e5a&oe=5B45C298",
+            "cover": "http://res.cloudinary.com/dcrmdvhrx/image/upload/v1528064466/techo.jpg",
             "price":"Precio: $500",
             "costo": "500",
             "id": 5
