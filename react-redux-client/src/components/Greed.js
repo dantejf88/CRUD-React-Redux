@@ -38,15 +38,30 @@ hideModal(){
 
   render(){
     const greedState = this.props.mappedAppState
-    const data=greedState.data.categories[0]
+    const data=greedState.data
     const articleToAdd= greedState.articleToAdd
     const showModal= greedState.showAddModal
   return (
       <div className="Greed">
           <Header />
           <Budget budget={greedState.budget}/>
-          {data &&
-          data.playlist.map((item) => {
+          <h1>Ornamentos</h1>
+          {data.categories[0] &&
+          data.categories[0].playlist.map((item) => {
+            return (
+                <div key={item.id}>
+                  <Card {...item} key={item.id}   className="Card"/>
+
+                        <Button onClick={() => this.handleModalAction(item)} className="Button">Sumar</Button>
+
+
+                </div>
+                )
+              })
+          }
+          <h1>Telas</h1>
+          {data.categories[1] &&
+          data.categories[1].playlist.map((item) => {
             return (
                 <div key={item.id}>
                   <Card {...item} key={item.id}   className="Card"/>
