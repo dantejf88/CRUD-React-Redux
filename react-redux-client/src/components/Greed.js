@@ -94,7 +94,7 @@ hideModal(){
             }
           </Modal>
       }
-      </div>
+      </div> 
         <div>
           {this.props.children}
         </div>

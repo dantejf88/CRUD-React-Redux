@@ -167,7 +167,10 @@ const appReducer = (currentState = INITIAL_STATE, action) => {
                     budget: currentState.budget
                   }
 
-
+            case "UPLOAD_IMAGE":
+                    return {
+                      ...currentState
+                    }
   default:
        return currentState;
     }

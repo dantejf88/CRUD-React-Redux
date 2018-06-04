@@ -133,36 +133,36 @@
           {
             "title": "Entrada",
             "cover": "http://res.cloudinary.com/dcrmdvhrx/image/upload/v1528064539/entrada.jpg",
-            "price":"Precio: $500",
-            "costo": "500",
+            "price":"Precio: $2500",
+            "costo": "2500",
             "id": 1
           },
           {
             "title": "Living",
             "cover": "http://res.cloudinary.com/dcrmdvhrx/image/upload/v1528064527/living.jpg",
-            "price":"Precio: $500",
-            "costo": "500",
+            "price":"Precio: $1100",
+            "costo": "1100",
             "id": 2
           },
           {
             "title": "Mesa principal",
             "cover": "http://res.cloudinary.com/dcrmdvhrx/image/upload/v1528064581/mesaPrincipal.jpg",
-            "price":"Precio: $500",
-            "costo": "500",
+            "price":"Precio: $1500",
+            "costo": "1500",
             "id": 3
           },
           {
             "title": "Paredes",
             "cover": "http://res.cloudinary.com/dcrmdvhrx/image/upload/v1528064541/paredes.jpg",
-            "price":"Precio: $500",
-            "costo": "500",
+            "price":"Precio: $5000",
+            "costo": "5000",
             "id": 4
           },
           {
             "title": "Techo",
             "cover": "http://res.cloudinary.com/dcrmdvhrx/image/upload/v1528064466/techo.jpg",
-            "price":"Precio: $500",
-            "costo": "500",
+            "price":"Precio: $6000",
+            "costo": "6000",
             "id": 5
           }
 

@@ -8,6 +8,7 @@ import Greed from "./containers/Greed"
 export default (
   <Route path="/" component={Greed}>
        <IndexRoute component={App} />
+       <IndexRoute component={UploadInput} />
 
   </Route>
 )
