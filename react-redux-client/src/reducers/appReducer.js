@@ -12,7 +12,8 @@ const INITIAL_STATE = {
   successMsg:null,
   articleToAdd: null,
   articleToDelete: null,
-  budget: 0
+  budget: 0,
+  image: null
 }
 
 const appReducer = (currentState = INITIAL_STATE, action) => {
@@ -27,7 +28,8 @@ const appReducer = (currentState = INITIAL_STATE, action) => {
         successMsg:null,
         articleToAdd: null,
         articleToDelete: null,
-        budget: currentState.budget
+        budget: currentState.budget,
+        image: null
       }
 
     case 'FETCH_ARTICLES_SUCCESS':
@@ -40,7 +42,8 @@ const appReducer = (currentState = INITIAL_STATE, action) => {
         successMsg:action.message,
         articleToAdd: null,
         articleToDelete: null,
-        budget: currentState.budget
+        budget: currentState.budget,
+        image: null
       }
 
     case 'FETCH_ARTICLES_FAILED':
@@ -53,7 +56,8 @@ const appReducer = (currentState = INITIAL_STATE, action) => {
         successMsg:null,
         articleToAdd: null,
         articleToDelete: null,
-        budget: currentState.budget
+        budget: currentState.budget,
+        image: null
       }
 
     case "SHOW_ADD_MODAL":
@@ -66,7 +70,8 @@ const appReducer = (currentState = INITIAL_STATE, action) => {
               successMsg:null,
               articleToAdd: action.article,
               articleToDelete: null,
-              budget: currentState.budget
+              budget: currentState.budget,
+              image: null
             }
 
     case "HIDE_ADD_MODAL":
@@ -79,7 +84,8 @@ const appReducer = (currentState = INITIAL_STATE, action) => {
               successMsg:null,
               articleToAdd: null,
               articleToDelete: null,
-              budget: currentState.budget
+              budget: currentState.budget,
+              image: null
             }
 
     case 'ADD_NEW_ARTICLE_REQUEST':
@@ -92,7 +98,8 @@ const appReducer = (currentState = INITIAL_STATE, action) => {
                     successMsg:null,
                     articleToAdd: action.article,
                     articleToDelete: null,
-                    budget: currentState.budget
+                    budget: currentState.budget,
+                    image: null
                   }
 
     case 'ADD_NEW_ARTICLE_REQUEST_FAILED':
@@ -105,7 +112,8 @@ const appReducer = (currentState = INITIAL_STATE, action) => {
                     successMsg:null,
                     articleToAdd: null,
                     articleToDelete: null,
-                    budget: currentState.budget
+                    budget: currentState.budget,
+                    image: null
                   }
 
     case 'ADD_NEW_ARTICLE_REQUEST_SUCCESS':
@@ -120,7 +128,8 @@ const appReducer = (currentState = INITIAL_STATE, action) => {
                     successMsg: action.message,
                     articleToAdd: action.article,
                     articleToDelete: null,
-                    budget: presu
+                    budget: presu,
+                    image: null
                   }
                 return nextState
 
@@ -134,7 +143,8 @@ const appReducer = (currentState = INITIAL_STATE, action) => {
                     successMsg:null,
                     articleToAdd: null,
                     articleToDelete: action.article,
-                    budget: currentState.budget
+                    budget: currentState.budget,
+                    image: null
                   }
 
 
@@ -150,7 +160,8 @@ const appReducer = (currentState = INITIAL_STATE, action) => {
                     successMsg:action.message,
                     articleToAdd: null,
                     articleToDelete: null,
-                    budget: lessPresu
+                    budget: lessPresu,
+                    image: null
                   }
 
 
@@ -164,12 +175,35 @@ const appReducer = (currentState = INITIAL_STATE, action) => {
                     successMsg: null,
                     articleToAdd: null,
                     articleToDelete: null,
-                    budget: currentState.budget
+                    budget: currentState.budget,
+                    image: null
                   }
 
             case "UPLOAD_IMAGE":
                     return {
-                      ...currentState
+                      ...currentState,
+                      articles: currentState.articles,
+                      showAddModal: false,
+                      isFetching: false,
+                      error: null,
+                      successMsg: null,
+                      articleToAdd: null,
+                      articleToDelete: null,
+                      budget: currentState.budget,
+                      image: action.file
+                    }
+            case "UPLOAD_IMAGE_FAILED":
+                    return {
+                      ...currentState,
+                      articles: currentState.articles,
+                      showAddModal: false,
+                      isFetching: false,
+                      error: error,
+                      successMsg: null,
+                      articleToAdd: null,
+                      articleToDelete: null,
+                      budget: currentState.budget,
+                      image: null
                     }
   default:
        return currentState;

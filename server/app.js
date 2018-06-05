@@ -7,6 +7,7 @@ import mongoose from 'mongoose';
 import SourceMapSupport from 'source-map-support';
 // import routes
 import articleRoutes from './routes/article.server.route';
+import filesRoutes from './routes/files.server.route';
 // define our app using express
 const app = express();
 // allow-cors
@@ -28,6 +29,7 @@ mongoose.connect('mongodb://localhost/mern-article-app')
 // add Source Map Support
 SourceMapSupport.install();
 app.use('/api', articleRoutes);
+app.use('/files', filesRoutes);
 app.get('/', (req,res) => {
   return res.end('Api working');
 })
