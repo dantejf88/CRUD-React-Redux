@@ -1,7 +1,7 @@
 const axios = require('axios')
 const cloudinary = require('cloudinary')
 const multer = require('multer')
-const cloudinary = require('cloudinary')
+
 
 
     cloudinary.config({
@@ -19,7 +19,7 @@ const cloudinary = require('cloudinary')
 export const uploadImage = (req, res) => {
   server.post('/files', upload.single('file'), fileUploadMiddleware)
 }
-  
+
 function fileUploadMiddleware(req, res) {
   cloudinary.uploader.upload_stream((result) => {
     console.log(`${req.headers.origin}/api/changeProfilePicture`)

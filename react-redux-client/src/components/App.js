@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import UploadInput from "./UploadInput"
 
 export default class App extends Component {
 
@@ -43,7 +43,9 @@ render() {
           </table>
           }
         </div>
-
+        <div>
+            <UploadInput mappedAppState = {this.props.mappedAppState}/>
+        </div>
       </div>
     );
   }

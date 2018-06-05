@@ -192,13 +192,28 @@ const appReducer = (currentState = INITIAL_STATE, action) => {
                       budget: currentState.budget,
                       image: action.file
                     }
+            case "UPLOAD_IMAGE_SUCCES":
+                    return {
+                      ...currentState,
+                      articles: currentState.articles,
+                      showAddModal: false,
+                      isFetching: false,
+                      error: null,
+                      successMsg: null,
+                      articleToAdd: null,
+                      articleToDelete: null,
+                      budget: currentState.budget,
+                      image: action.file
+                    }
+
+
             case "UPLOAD_IMAGE_FAILED":
                     return {
                       ...currentState,
                       articles: currentState.articles,
                       showAddModal: false,
                       isFetching: false,
-                      error: error,
+                      error: action.error,
                       successMsg: null,
                       articleToAdd: null,
                       articleToDelete: null,
