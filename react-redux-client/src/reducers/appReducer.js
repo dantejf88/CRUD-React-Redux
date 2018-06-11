@@ -13,7 +13,7 @@ const INITIAL_STATE = {
   articleToAdd: null,
   articleToDelete: null,
   budget: 0,
-  image: null
+  
 }
 
 const appReducer = (currentState = INITIAL_STATE, action) => {
@@ -29,7 +29,7 @@ const appReducer = (currentState = INITIAL_STATE, action) => {
         articleToAdd: null,
         articleToDelete: null,
         budget: currentState.budget,
-        image: null
+        
       }
 
     case 'FETCH_ARTICLES_SUCCESS':
@@ -43,7 +43,7 @@ const appReducer = (currentState = INITIAL_STATE, action) => {
         articleToAdd: null,
         articleToDelete: null,
         budget: currentState.budget,
-        image: null
+        
       }
 
     case 'FETCH_ARTICLES_FAILED':
@@ -57,7 +57,7 @@ const appReducer = (currentState = INITIAL_STATE, action) => {
         articleToAdd: null,
         articleToDelete: null,
         budget: currentState.budget,
-        image: null
+        
       }
 
     case "SHOW_ADD_MODAL":
@@ -71,7 +71,7 @@ const appReducer = (currentState = INITIAL_STATE, action) => {
               articleToAdd: action.article,
               articleToDelete: null,
               budget: currentState.budget,
-              image: null
+              
             }
 
     case "HIDE_ADD_MODAL":
@@ -85,7 +85,7 @@ const appReducer = (currentState = INITIAL_STATE, action) => {
               articleToAdd: null,
               articleToDelete: null,
               budget: currentState.budget,
-              image: null
+              
             }
 
     case 'ADD_NEW_ARTICLE_REQUEST':
@@ -99,7 +99,7 @@ const appReducer = (currentState = INITIAL_STATE, action) => {
                     articleToAdd: action.article,
                     articleToDelete: null,
                     budget: currentState.budget,
-                    image: null
+                    
                   }
 
     case 'ADD_NEW_ARTICLE_REQUEST_FAILED':
@@ -113,7 +113,7 @@ const appReducer = (currentState = INITIAL_STATE, action) => {
                     articleToAdd: null,
                     articleToDelete: null,
                     budget: currentState.budget,
-                    image: null
+                    
                   }
 
     case 'ADD_NEW_ARTICLE_REQUEST_SUCCESS':
@@ -129,7 +129,7 @@ const appReducer = (currentState = INITIAL_STATE, action) => {
                     articleToAdd: action.article,
                     articleToDelete: null,
                     budget: presu,
-                    image: null
+                    
                   }
                 return nextState
 
@@ -144,7 +144,7 @@ const appReducer = (currentState = INITIAL_STATE, action) => {
                     articleToAdd: null,
                     articleToDelete: action.article,
                     budget: currentState.budget,
-                    image: null
+                    
                   }
 
 
@@ -161,7 +161,7 @@ const appReducer = (currentState = INITIAL_STATE, action) => {
                     articleToAdd: null,
                     articleToDelete: null,
                     budget: lessPresu,
-                    image: null
+                    
                   }
 
 
@@ -176,7 +176,7 @@ const appReducer = (currentState = INITIAL_STATE, action) => {
                     articleToAdd: null,
                     articleToDelete: null,
                     budget: currentState.budget,
-                    image: null
+                    
                   }
 
             case "UPLOAD_IMAGE":
@@ -190,7 +190,7 @@ const appReducer = (currentState = INITIAL_STATE, action) => {
                       articleToAdd: null,
                       articleToDelete: null,
                       budget: currentState.budget,
-                      image: action.file
+                      
                     }
             case "UPLOAD_IMAGE_SUCCES":
                     return {
@@ -203,7 +203,7 @@ const appReducer = (currentState = INITIAL_STATE, action) => {
                       articleToAdd: null,
                       articleToDelete: null,
                       budget: currentState.budget,
-                      image: action.file
+                      
                     }
 
 
@@ -218,7 +218,7 @@ const appReducer = (currentState = INITIAL_STATE, action) => {
                       articleToAdd: null,
                       articleToDelete: null,
                       budget: currentState.budget,
-                      image: null
+                      
                     }
   default:
        return currentState;
