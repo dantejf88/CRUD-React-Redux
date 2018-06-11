@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import "./css/listStyle.css"
 
 export default class App extends Component {
 
@@ -17,15 +17,15 @@ render() {
     const articles = appState.articles
     console.log(articles);
     return (
-      <div>
-        <h1>Lista de artículos</h1>
+      <div className="listStyle">
+        <h1>Lista de compra</h1>
         {articles.length <= 0 &&
           <p>No hay artículos seleccionados</p>
         }
         <div>
 
           {articles && articles.length > 0 && !appState.isFetching &&
-            <table className="Table">
+            <table>
               <thead>
                 <tr><th>Artículo</th><th>Precio</th></tr>
               </thead>

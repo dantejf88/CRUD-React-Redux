@@ -9,6 +9,7 @@ class DumbHeader extends Component {
         <div className="Logo">
 
           <img src={logo} alt="el-logo"></img>
+
         </div>
     )
   }

@@ -1,0 +1,15 @@
+.listStyle {
+  margin-left: 80%;
+  display: flex;
+  display: block;
+}
+
+.listStyle table tbody tr td {
+  font-size: 17px;
+
+}
+.listStyle table thead tr th {
+  font-size: 20px;
+
+
+}

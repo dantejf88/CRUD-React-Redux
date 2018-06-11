@@ -1,6 +1,6 @@
 .Modals {
-  max-width: 220px;
-  height: 220px;
+  max-width: 150px;
+  height: 150px;
   width: 100%;
   position: fixed;
   margin-right: 10px;
@@ -15,4 +15,5 @@
   z-index: 3;
   display: flex;
   flex-wrap: wrap;
+  font-size: 20px;
 }

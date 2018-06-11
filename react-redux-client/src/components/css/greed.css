@@ -12,11 +12,12 @@
 }
 .PlaylistTitle {
   font-size: 70px;
+  margin-left: 370px;
 }
 
 .Greed h1 {
   display:block;
-  width: 1000px;
+  width: 100%;
 }
 
 .Card {
@@ -28,8 +29,4 @@
 .Button {
   display: flex;
   margin-left: 10px
-}
-.Modal{
-  width: 260px;
-  height: 240px;
 }

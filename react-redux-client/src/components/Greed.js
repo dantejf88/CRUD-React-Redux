@@ -1,5 +1,6 @@
 import React, { Component } from "react"
-import { Alert, Button } from 'react-bootstrap';
+import { Alert } from 'react-bootstrap';
+import { Button } from 'react-materialize'
 import Modal from 'react-modal';
 import Card from "./Card"
 import ArticleModal from "./articleModal"
@@ -8,6 +9,17 @@ import Budget from "./Budget"
 import Header from "./dumbHeader"
 
 var querystring = require("querystring")
+
+const customStyles = {
+  content : {
+    top                   : '50%',
+    left                  : '50%',
+    right                 : 'auto',
+    bottom                : 'auto',
+    marginRight           : '-50%',
+    transform             : 'translate(-50%, -50%)'
+  }
+};
 
 class Greed extends Component{
 constructor(props){
@@ -49,7 +61,7 @@ hideModal(){
           {data.categories[0] &&
           data.categories[0].playlist.map((item) => {
             return (
-                <div key={item.id}>
+                <div  key={item.id}>
                   <Card {...item} key={item.id}   className="Card"/>
 
                         <Button onClick={() => this.handleModalAction(item)} className="Button">Sumar</Button>
@@ -59,11 +71,11 @@ hideModal(){
                 )
               })
           }
-          <h1 className="PlaylistTitle">Telas</h1>
+          <h1 className="PlaylistTitle">Arreglo de telas</h1>
           {data.categories[1] &&
           data.categories[1].playlist.map((item) => {
             return (
-                <div key={item.id}>
+                <div  key={item.id}>
                   <Card {...item} key={item.id}   className="Card"/>
 
                         <Button onClick={() => this.handleModalAction(item)} className="Button">Sumar</Button>
@@ -74,27 +86,29 @@ hideModal(){
               })
           }
         {/*Add Modal*/}
-        <div  className="Modal">
       {showModal &&
+        <div >
           <Modal
             isOpen={showModal}
             onRequestClose={this.hideModal}
+            style={customStyles}
           >
-            <Button bsStyle="danger" bsSize="small" onClick={this.hideModal}><span className="closebtn glyphicon glyphicon-remove">X</span></Button>
+            <Button bsstyle="danger" bssize="small" onClick={this.hideModal}><span className="closebtn glyphicon glyphicon-remove">X</span></Button>
 
           <ArticleModal
                 article={articleToAdd}
                 addArticle={this.addArticle}
-            ></ArticleModal>
+            >
+          </ArticleModal>
           {showModal  && !greedState.isFetching && greedState.successMsg &&
                   <Alert bsStyle="success">
               El artículo <strong> {articleToAdd.title} </strong>fue agregado a la compra <br />
-              <Button bsStyle="danger" bsSize="small" onClick={this.hideModal}><span className="closebtn glyphicon glyphicon-remove">Cerrar</span></Button>
+            <Button  onClick={this.hideModal}><span className="closebtn glyphicon glyphicon-remove">Cerrar</span></Button>
                   </Alert>
             }
           </Modal>
+        </div>
       }
-      </div> 
         <div>
           {this.props.children}
         </div>

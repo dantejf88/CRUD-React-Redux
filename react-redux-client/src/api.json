@@ -115,13 +115,6 @@
             "price":"Precio: $500",
             "costo": "500",
             "id": 16
-          },
-          {
-            "title": "Triciclos ornamentales",
-            "cover": "http://res.cloudinary.com/dcrmdvhrx/image/upload/v1528064476/triciclo.jpg",
-            "price":"Precio: $1250",
-            "costo": "1250",
-            "id": 17
           }
 
         ]
@@ -157,14 +150,8 @@
             "price":"Precio: $5000",
             "costo": "5000",
             "id": 4
-          },
-          {
-            "title": "Techo",
-            "cover": "http://res.cloudinary.com/dcrmdvhrx/image/upload/v1528064466/techo.jpg",
-            "price":"Precio: $6000",
-            "costo": "6000",
-            "id": 5
           }
+
 
         ]
       }
