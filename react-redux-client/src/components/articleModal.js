@@ -35,7 +35,7 @@ const ArticleModal = (props) => {
           </div>
 
           <FormGroup>
-              <Button type="submit" block>Agregar</Button>
+              <Button type="submit" block>Agregar a la compra</Button>
           </FormGroup>
         </form>
   );
