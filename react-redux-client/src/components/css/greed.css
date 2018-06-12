@@ -15,11 +15,11 @@
   margin-left: 370px;
 }
 .PlaylistTitle::before {
-    content: '*';
+    content: '♦';
     color: white;
 }
 .PlaylistTitle::after {
-    content: '*';
+    content: '♦';
     color: white;
 }
 
