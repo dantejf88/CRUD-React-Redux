@@ -14,6 +14,14 @@
   font-size: 70px;
   margin-left: 370px;
 }
+.PlaylistTitle::before {
+    content: '*';
+    color: white;
+}
+.PlaylistTitle::after {
+    content: '*';
+    color: white;
+}
 
 .Greed h1 {
   display:block;
@@ -29,4 +37,8 @@
 .Button {
   display: flex;
   margin-left: 10px
+}
+
+.AlertColor {
+  color: black;
 }

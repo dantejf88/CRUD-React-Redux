@@ -101,7 +101,7 @@ hideModal(){
             >
           </ArticleModal>
           {showModal  && !greedState.isFetching && greedState.successMsg &&
-                  <Alert bsStyle="success">
+                  <Alert bsStyle="success" className="AlertColor">
               El artículo <strong> {articleToAdd.title} </strong>fue agregado a la compra <br />
             <Button  onClick={this.hideModal}><span className="closebtn glyphicon glyphicon-remove">Cerrar</span></Button>
                   </Alert>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { FormGroup,ControlLabel,FormControl,Button } from 'react-bootstrap';
-
+import "./css/articleModal.css"
 
 const ArticleModal = (props) => {
   return (
@@ -14,7 +14,7 @@ const ArticleModal = (props) => {
 
         />
     <div className="col-md-12">
-    <FormGroup>
+    <FormGroup className="Formcolor">
             <ControlLabel>Artículo: </ControlLabel>
                 <FormControl
                   type="text"
@@ -24,8 +24,8 @@ const ArticleModal = (props) => {
         </FormGroup>
         </div>
         <div className="col-md-12">
-        <FormGroup>
-          <ControlLabel>Precio: $</ControlLabel>
+        <FormGroup className="Formcolor">
+          <ControlLabel >Precio: $</ControlLabel>
           <FormControl
             type="number"
             name="costo" defaultValue={props.article.costo} readOnly

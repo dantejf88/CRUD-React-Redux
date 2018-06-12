@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "./css/listStyle.css"
+import { Button } from 'react-materialize'
 
 export default class App extends Component {
 
@@ -34,7 +35,7 @@ render() {
                     <tr key={i}>
                         <td>{article.title}</td>
                         <td>${article.costo}</td>
-                        <td><button onClick={() => this.handleDelete(article)}>Eliminar</button></td>
+                        <td><Button onClick={() => this.handleDelete(article)}>Eliminar</Button></td>
 
                     </tr>)
                   }
